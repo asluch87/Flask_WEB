@@ -15,6 +15,7 @@ def weather_by_city(city_name):
 
 
 
+
 if __name__ == "__main__":
     weather = weather_by_city("Moscow,Russia")
     print(weather)

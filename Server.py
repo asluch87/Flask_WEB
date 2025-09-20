@@ -8,6 +8,7 @@ app = Flask(__name__)
 def hello():
     return "Привет!"
 
+
 @app.route('/app')
 def index():
     try:
